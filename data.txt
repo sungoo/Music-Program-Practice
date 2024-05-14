@@ -1,0 +1,7 @@
+음악1,메탈,DX03
+음악2,발라드,DX03
+dsf,소프트 락,33of
+p가 부족해,J-Pop,oopfg
+파발,메탈,33of
+비둘기,소프트 락,DX03
+vvvv,EDM,ppep
