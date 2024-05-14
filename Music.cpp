@@ -31,22 +31,11 @@ wstring MusicInfo::getPlaying()
 
 void MusicInfo::Play()
 {
-	string temp;
-	temp.assign(playing.begin(), playing.end());
-
-	cout << temp.c_str() << endl;
+	wcout << playing << endl;
 }
 
 void MusicInfo::Display()
 {
-	string temp;
-	temp.assign(title.begin(), title.end());
-	cout << temp.c_str() << "\t\t";
-	temp.assign(genre.begin(), genre.end());
-	cout << temp.c_str() << "\t\t";
-	temp.assign(singer.begin(), singer.end());
-	cout << temp.c_str() << "\t\t";
-	temp.assign(releaseData.begin(), releaseData.end());
-	cout << temp.c_str() << endl;
+	wcout << title << "\t\t\t" << genre << "\t" << singer << "\t" << releaseData << endl;
 }
 

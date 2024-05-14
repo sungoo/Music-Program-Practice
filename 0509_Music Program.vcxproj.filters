@@ -24,7 +24,7 @@
     <ClCompile Include="MusicList.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Interface.cpp">
+    <ClCompile Include="MusicManager.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Line.cpp">
@@ -41,7 +41,7 @@
     <ClInclude Include="MusicList.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Interface.h">
+    <ClInclude Include="MusicManager.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Line.h">

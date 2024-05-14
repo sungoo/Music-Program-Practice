@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="MusicManager.cpp" />
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Music.cpp" />
@@ -135,7 +135,7 @@
     <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Interface.h" />
+    <ClInclude Include="MusicManager.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="Music.h" />
     <ClInclude Include="MusicList.h" />

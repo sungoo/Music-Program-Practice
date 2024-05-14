@@ -1,10 +1,13 @@
-#include "../../psulib/stdafx.h"
+#include "stdafx.h"
 #include "Util.h"
 #include "MusicList.h"
-#include "Interface.h"
+#include "MusicManager.h"
 
 int main() {
-	MusicManager interMusic;
+	wcin.imbue(locale("korean"));
+	wcout.imbue(locale("korean"));
+
+	MusicManager interMusic("MusicBaseData.csv");
 
 	interMusic.Title();
 	interMusic.Selection();
