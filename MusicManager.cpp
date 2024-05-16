@@ -101,10 +101,11 @@ void MusicManager::SearchBySinger()
 
 void MusicManager::PlayMusic()
 {
+	wcin.ignore();
 	Title();
 	wstring searching;
 	cout << "들으려는 노래를 입력하세요 : ";
-	wcin >> searching;
+	getline(wcin, searching, L'\n');
 	musics.SearchAndPlay(searching);
 	Selection();
 }
